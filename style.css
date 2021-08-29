@@ -1,0 +1,122 @@
+nav
+{
+
+   
+    font-size: 20px;
+   
+
+    background-color:#5b21b6 ;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    height: 40px;
+  margin-left: 1px;
+  margin-right: 1px;
+
+}
+.active
+{
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    /* font-size: 20px; */
+}
+
+
+
+input,label{
+    display: block;
+    /* color: white; */
+    font-size: large;
+    display: inline;
+}
+
+
+
+body{
+    margin: 0px;
+}
+
+
+
+.div1
+{
+    margin-left: 300px;
+    line-height: 50px;
+}
+
+
+.angle-input
+{
+    width: 60%;
+    height: 6%;
+
+    
+}
+
+
+
+#is-triangle-btn
+{
+    margin-top: 40px;
+    width: 
+    height: 7%;
+    background-color:#5b21b6  ;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+body{
+   
+   
+   
+    background-color:  #1f2937;
+}
+#output
+{
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+label{
+    color: white;
+    font-size: large;
+}
+
+
+p
+   {
+   color: white;
+   font-size: large;
+}
+
+
+
+  
+.question
+{
+    border: 2px solid #6821c0;
+    width:50% ;
+    margin-left: 280px;
+    height: 9rem;
+    padding-left: 20px;
+    border-radius: 6px;
+}
+#submit-answer-btn
+{
+    margin-left: 280px;
+    margin-top: 20px;
+    width: 53%;
+    height: 38px;
+    background-color: #5b21b6;
+    border-radius: 1px;
+    color: white;
+    font-size: large;
+}
