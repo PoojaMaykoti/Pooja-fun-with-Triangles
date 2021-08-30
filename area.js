@@ -2,7 +2,7 @@ const inputs = document.querySelectorAll('.area-input');
 
 const AreaBtn = document.querySelector('#area-btn');
 
-const Output = document.querySelector('#output');
+const Output = document.querySelector('#output-h2');
 
 
 function multiplyBaseAndHeight(base,height)
@@ -21,8 +21,8 @@ function multiplyBaseAndHeight(base,height)
         const area = baseheight / 2;
         console.log({area});
 
-        Output.innerText = 'The area of the triangle is ${aera} cm²';
+        Output.innerText = `The area of the triangle is ${area} cm²`;
 
     }
 
-    areaBtn.addEventListener('click',calculateArea);
+    AreaBtn.addEventListener('click',calculateArea);

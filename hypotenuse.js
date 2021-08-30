@@ -2,7 +2,7 @@ const sides = document.querySelectorAll('.side-input');
 
 const hypotenuseBtn = document.querySelector('#hypotenuse-btn');
 
-const outputEl = document.querySelector('#output');
+const outputEl = document.querySelector('#show-output');
 
 
 function calculateSumofSquares(a,b)

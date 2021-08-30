@@ -1,24 +1,26 @@
+
+
 nav
 {
-
-   
     font-size: 20px;
-   
-
     background-color:#5b21b6 ;
     padding: 1.5rem;
     margin-bottom: 2rem;
     height: 40px;
-  margin-left: 1px;
-  margin-right: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
 
 }
+
+
 .active
 {
     color: white;
     text-decoration: none;
     padding-left: 40px;
 }
+
+
 h1
 {
     text-align: center;
@@ -28,16 +30,19 @@ h1
 
 
 
-input,label{
+input,label
+{
     display: block;
     /* color: white; */
     font-size: large;
-    display: inline;
+    /* display: inline; */
 }
 
 
 
-body{
+body
+
+{
     margin: 0px;
 }
 
@@ -63,21 +68,23 @@ body{
 #is-triangle-btn
 {
     margin-top: 40px;
-    width: 
+    width: 60%;
     height: 7%;
     background-color:#5b21b6  ;
     font-size: 20px;
     color: white;
+    border-style: none;
 }
 
 
 
-body{
+body
+{
    
-   
-   
-    background-color:  #1f2937;
+     background-color:  #1f2937;
 }
+
+
 #output
 {
     color: white;
@@ -85,21 +92,21 @@ body{
     margin-left: 30px;
     margin-top: 20px;
 }
-label{
+
+
+label
+{
     color: white;
-    font-size: large;
 }
 
 
 p
-   {
-   color: white;
-   font-size: large;
+{
+    color: white;
 }
 
 
 
-  
 .question
 {
     border: 2px solid #6821c0;
@@ -107,16 +114,172 @@ p
     margin-left: 280px;
     height: 9rem;
     padding-left: 20px;
-    border-radius: 6px;
+    border-radius: 1px;
 }
+
+
+
 #submit-answer-btn
 {
     margin-left: 280px;
     margin-top: 20px;
     width: 53%;
-    height: 38px;
+    height: 36px;
     background-color: #5b21b6;
     border-radius: 1px;
     color: white;
     font-size: large;
+    border-style: none;
+}
+
+
+.quiz-btn{
+    display:inline-flex;
+}
+
+
+/* #output
+{
+    /* text-align: center; */
+    /* margin-left: 44px; */
+/* } */ */
+
+
+
+#formula
+{
+    text-align: center;
+    color: white;
+    margin-left: 250px;
+   
+    margin-right: 290px;
+    padding: 0.5rem;
+    border: 2px solid  #5b21b6;
+   
+}
+
+
+
+#label-input
+{
+    margin-left: 260px;
+    line-height: 50px;
+    /* font-size: 100px; */
+}
+.side-input
+{
+    height: 30px;
+    width: 62%;
+}
+
+
+
+#hypotenuse-btn
+{
+    width: 62%;
+    height: 40px;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    background-color:  #5b21b6;
+    border-style: none;
+    color: white;
+     font-size: large;
+
+}
+
+
+#formula1{
+    text-align: center;
+    color: white;
+    border: 2px solid  #5b21b6;
+    margin-left: 250px;
+    padding: 0.5rem;
+    margin-right: 290px;
+    height: 32px;
+}
+
+
+
+.angle-container
+{
+    margin-left: 260px;
+    line-height: 50px;
+   
+}
+
+
+#base
+{
+    width: 62%;
+    height: 30px;
+}
+
+
+#height
+{
+    width: 62%;
+    height: 30px;
+}
+
+
+
+
+#output
+{
+    margin-left: 48px;
+}
+
+
+.formula
+{
+    text-align: center;
+    color: white;
+    border: 2px solid  #5b21b6;
+    margin-left: 250px;
+    padding: 0.5rem;
+    margin-right: 290px;
+    height: 32px;
+}
+
+
+
+
+#area-btn
+{
+    width: 62%;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #5b21b6;
+    color: white;
+    font-size: large;
+    border-style: none;
+}
+
+
+#output-show
+{
+    color: white;
+    margin-left: 400px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+#show-output
+{
+    color: white;
+    margin-left: 330px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#output-h2
+{
+    color: white;
+    margin-left: 310px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+label{
+    font-size: 21px;
 }
