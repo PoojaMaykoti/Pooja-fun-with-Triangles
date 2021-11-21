@@ -1,9 +1,17 @@
 
+body
+{
+
+}
+
+
+
+
 
 nav
 {
-    font-size: 20px;
-    background-color:#5b21b6 ;
+    font-size: 30px;
+    background-color:#DC7633;
     padding: 1.5rem;
     margin-bottom: 2rem;
     height: 40px;
@@ -21,36 +29,32 @@ nav
 }
 
 
-h1
-{
-    text-align: center;
-    color: white;
-    /* font-size: 20px; */
+
+
+
+
+label{
+     display: block;
+     font-size:28px;
+     color: #873600;
+       /* display: inline; */
 }
-
-
-
-input,label
-{
-    display: block;
-    /* color: white; */
-    font-size: large;
-    /* display: inline; */
+input{
+    border-radius: 8px;
 }
-
-
 
 body
 
 {
     margin: 0px;
+    background-color: #FEF5E7;
 }
 
 
 
 .div1
 {
-    margin-left: 300px;
+    margin-left: 420px;
     line-height: 50px;
 }
 
@@ -60,7 +64,7 @@ body
     width: 60%;
     height: 6%;
 
-    
+
 }
 
 
@@ -70,65 +74,59 @@ body
     margin-top: 40px;
     width: 60%;
     height: 7%;
-    background-color:#5b21b6  ;
-    font-size: 20px;
+    background-color:#DC7633 ;
+    font-size: 30px;
     color: white;
     border-style: none;
+    border-radius: 8px;
 }
 
 
 
-body
-{
-   
-     background-color:  #1f2937;
-}
 
 
 #output
 {
-    color: white;
-    font-size: 25px;
+    color: #DC7633;
+    font-size:30px;
     margin-left: 30px;
     margin-top: 20px;
 }
 
 
-label
-{
-    color: white;
-}
+
 
 
 p
 {
-    color: white;
+    color: #DC7633;
+    font-size: 22px;
 }
 
 
 
 .question
 {
-    border: 2px solid #6821c0;
+    border: 2px solid #DC7633;
     width:50% ;
-    margin-left: 280px;
+    margin-left:370px;
     height: 9rem;
     padding-left: 20px;
-    border-radius: 1px;
+    border-radius: 8px;
 }
 
 
 
 #submit-answer-btn
 {
-    margin-left: 280px;
+    margin-left: 380px;
     margin-top: 20px;
-    width: 53%;
-    height: 36px;
-    background-color: #5b21b6;
-    border-radius: 1px;
+    width: 50%;
+    height: 50px;
+    background-color: #DC7633;
+    border-radius: 8px;
     color: white;
-    font-size: large;
+    font-size:29px;
     border-style: none;
 }
 
@@ -149,13 +147,13 @@ p
 #formula
 {
     text-align: center;
-    color: white;
+    color:#DC7633;
     margin-left: 250px;
-   
+
     margin-right: 290px;
     padding: 0.5rem;
-    border: 2px solid  #5b21b6;
-   
+    border: 2px solid #DC7633;
+
 }
 
 
@@ -179,23 +177,25 @@ p
     width: 62%;
     height: 40px;
     margin-top: 20px;
-    /* margin-left: 20px; */
-    background-color:  #5b21b6;
+    margin-left: 140px;
+    background-color:  #DC7633;
     border-style: none;
     color: white;
-     font-size: large;
+     font-size:28px;
+     border-radius: 8px;
 
 }
 
 
 #formula1{
     text-align: center;
-    color: white;
-    border: 2px solid  #5b21b6;
-    margin-left: 250px;
+    color: #DC7633;
+    border: 2px solid   #DC7633;
+    margin-left: 390px;
     padding: 0.5rem;
-    margin-right: 290px;
+    margin-right: 380px;
     height: 32px;
+    font-size: 30px;
 }
 
 
@@ -204,21 +204,21 @@ p
 {
     margin-left: 260px;
     line-height: 50px;
-   
+
 }
 
 
 #base
 {
-    width: 62%;
-    height: 30px;
+    width: 65%;
+    height: 40px;
 }
 
 
 #height
 {
-    width: 62%;
-    height: 30px;
+    width: 65%;
+    height: 40px;
 }
 
 
@@ -233,12 +233,13 @@ p
 .formula
 {
     text-align: center;
-    color: white;
-    border: 2px solid  #5b21b6;
+    color:   #DC7633;
+    border: 2px solid #DC7633;
     margin-left: 250px;
     padding: 0.5rem;
     margin-right: 290px;
     height: 32px;
+    font-size: 30px;
 }
 
 
@@ -247,19 +248,21 @@ p
 #area-btn
 {
     width: 62%;
-    height: 35px;
+    height: 40px;
     margin-top: 20px;
-    background-color: #5b21b6;
+    background-color:  #DC7633;
     color: white;
-    font-size: large;
+    font-size: 30px;
     border-style: none;
+    margin-left: 20px;
+    border-radius: 8px;
 }
 
 
 #output-show
 {
-    color: white;
-    margin-left: 400px;
+    color: #DC7633;
+    margin-left: 600px;
     margin-top: 20px;
     font-size: 30px;
 }
@@ -267,10 +270,10 @@ p
 
 #show-output
 {
-    color: white;
-    margin-left: 330px;
+    color:#DC7633;
+    margin-left:550px;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 #output-h2
@@ -280,6 +283,24 @@ p
     margin-top: 20px;
     font-size: 30px;
 }
-label{
+/* label
+{
     font-size: 21px;
+
+} */
+h1
+{
+  color: #873600;
+  font-size: 40px;
+      text-align: center;
+}
+.side-input
+{
+  height: 40px;
+  margin-left: 130px;
+  /* width: 300px; */
+}
+.text-label
+{
+  margin-left: 10%;
 }
