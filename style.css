@@ -321,3 +321,35 @@ h1
 .base-height{
    margin-left: 13%;
 }
+
+
+#active-container1
+{
+    border: 1px solid #873600;;
+    height: 8%;
+    width: 60%;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 23px;
+}
+
+a{
+    text-decoration: none;
+    color: #873600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
