@@ -114,6 +114,18 @@ p
 
 
 
+.question5
+{
+    height: 17rem;
+    margin-top: 20px;
+    border: 2px solid #DC7633;
+    width:50% ;
+    border-radius: 8px;
+    margin-left:370px;
+    padding-left: 20px;
+}
+
+
 #submit-answer-btn
 {
     margin-left: 380px;
@@ -338,6 +350,9 @@ a{
     text-decoration: none;
     color: #873600;
 }
+
+
+
 
 
 
