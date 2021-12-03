@@ -4,7 +4,7 @@ const submitAnswerBtn = document.querySelector('#submit-answer-btn');
 
 const outputEl = document.querySelector('#output-show');
 
-const correctAnswers = ["90°", "right angled"];
+const correctAnswers = ["90°", "right angled", "A triangle with three angles of 60 degrees is equilateral" ,"100°"];
 
 function calculateScore()
 {
