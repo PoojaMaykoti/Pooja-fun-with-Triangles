@@ -27,7 +27,7 @@ function isTriangle()
     //     outputEl.innerText="Enter Valid Number";          
     // }
 
-      else if(sumOfAngles === 180)
+    if(sumOfAngles === 180)
     {
         // console.log("Yay, The angles form a triangle")
         outputEl.innerText = "Yay, The angles form a triangle";
