@@ -20,18 +20,35 @@ function isTriangle()
     Number(inputs[1].value),Number(inputs[2].value)
     );
 
-    if(sumOfAngles === 180)
+  
+
+    // if( sumOfAngles < 0  )
+    // {
+    //     outputEl.innerText="Enter Valid Number";          
+    // }
+
+      else if(sumOfAngles === 180)
     {
         // console.log("Yay, The angles form a triangle")
         outputEl.innerText = "Yay, The angles form a triangle";
+        
     }
+
+ 
 
     else
     {
     //   console.log("oh oh! The angles don't form a triangle")
 
-      outputEl.innerText = "oh oh! The angles don't form a triangle";
+    //   outputEl.innerText = "oh oh! The angles don't form a triangle";
+         outputEl.innerText="Enter valid Number";
     }
+
+    
+  
+
+
+
 }
 
 
